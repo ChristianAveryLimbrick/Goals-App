@@ -1,7 +1,7 @@
 import CourseGoal from './CourseGoal.tsx';
 import { type CourseGoal as CGoal } from '../App.tsx';
 import InfoBox from './infoBox.tsx';
-import {React, ReactNode} from 'react';
+import {ReactNode} from 'react';
 
 type CourseGoalListProps = {
   goals: CGoal[];
